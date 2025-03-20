@@ -117,7 +117,7 @@ i{
 /* ==============end header================ */
 
 /* ==============start Browse The Range================ */
-/* ==============end Browse The Range================ */
+
 #range{
     display: flex;
     justify-content: center;
@@ -184,4 +184,57 @@ i{
     position: absolute;
     right: 155px;
     bottom: 0px;
+}
+/* ==============end Browse The Range================ */
+
+/* ==============start product================ */
+
+/* ==============end product================== */
+#product{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 56px; */
+    width: 1440px;
+}
+.container-product{
+    width: 1236px;
+    height: 1084px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.title-product{   
+    width: 269px;
+    height: 48px;
+    margin-bottom: 32px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 120%;
+}
+.title-product p{
+
+    text-align: center;
+}
+.content-product{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 32px;
+}
+.item-product{
+    width: 285px;
+    height: 446px;
+    background-color: antiquewhite;
+}
+.btn-product button{
+    width: 245px;
+    height: 48px;
+    border: 1px #B88E2F solid;
+    background-color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 150%;
+    color: #B88E2F;
+    margin-top: 32px;
 }
